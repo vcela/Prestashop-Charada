@@ -1,0 +1,266 @@
+/*
+
+These styles are from Ondro.
+
+They are making change of styles of web and allow upgrade Theme without loose new style. 
+
+It's just important to keep this file charadweb.css in the same directory where is alysum.css
+
+and in header.tpl has to be added this line: 
+
+<link href="{$css_dir}charadaweb.css" rel="stylesheet" type="text/css" media="{$media}" />
+
+@import url("alysum.css");
+
+*/
+.color-pink {
+	color: #ff006c;
+}
+
+#header_logo {
+	top: 30px;
+}
+
+.passatBody iframe {
+	width: 733px !important;
+}
+
+.desktopView .sf-menu > li {
+	background-image: none;
+}
+
+.desktopView .sf-menu > li:hover {
+	background: url(http://www.charadaweb.com/modules/blockmegamenu/img/active_item.gif) repeat-x bottom ;
+}
+
+#more_info_block {
+	margin-top: 10px;
+}
+
+#pb-right-column #image-block {
+	border: 0px;
+}
+
+.hookProductPage #wishlist_button {
+	margin-left: 0px;
+}
+
+.hookProductPage .buttons_bottom_block {
+	margin-left: 80px;
+}
+
+#header_user #shopping_cart:hover, #header_user #shopping_cart.hover {
+	background: #ff006c;
+}
+
+#cart_block #cart-buttons #button_order_cart {
+	font-weight: 700;
+	font-size: 11px;
+}
+
+.hookProductPage .buttons_bottom_block {
+	margin-left: 140px;
+}
+
+span.productTitle {
+	line-height: 40px;
+}
+
+.attribute_list {
+	margin-top: -5px;
+}
+
+.attribute_list ul {
+	list-style: none;
+}
+
+.attribute_list ul li {
+	display: inline-block;
+	margin-right: 30px
+}
+
+div.radio, div.radio span, div.radio input {
+	width: 20px;
+	height: 20px;
+	top: 3px;
+}
+
+div.radio span {
+	background-image:url(http://www.charadaweb.com/themes/images/radio-button.png); 
+	background-position: 0px 0px;
+}
+
+div.radio span.checked { 
+	background-image:url(http://www.charadaweb.com/themes/images/radio-button.png); 
+	background-position: 0px -20px;
+}
+
+div.radio:hover span.checked {
+	background-position: 0px -20px;
+}
+
+.content_prices {
+	margin: 30px 0px;
+}
+
+#columns h1, #columns h1 a, #columns h2, #columns h2 a, #columns h3, #columns h3 a, #columns h4, #columns h4 a, #columns h5, #columns h5 a, .layered_subtitle {
+	font-family: "Georgia" !important;
+}
+
+.product_desc, #idTab1 p, .comment_details p, #newsletter_block_ext .indent p, #mycarousel a.f_title {
+font-family: "Verdana" !important;
+}
+
+li.pk_wishlist:hover, li.pk_favorites:hover, li.pk_watchlist:hover {
+background: rgba(225,115,101,0.9);
+color: #FFF;
+}
+
+ul.sf-menu > li.sfHover > a, .sf-menu a:hover {
+	color: #ff006c;
+}
+
+li.pk_wishlist:hover, li.pk_favorites:hover, li.pk_watchlist:hover, .watchlist, .favoritelist, #pk_wishlist {
+	background: #ff006c;
+	opacity: 0.99;
+	filter: alpha(opacity=99);
+}
+
+#footer .block h4 {
+	height: 15px;
+}
+
+#footer .block .block_content {
+	float: left;
+	width: 160px;
+	margin-right: 20px;
+}
+
+#footer .block {
+	margin-right: 0px;
+	width: 360px;
+}
+
+#view_full_size img.bigimg {
+	width: 1500px;
+	height: auto;
+}
+
+#product_list li a.framelink {
+	z-index: 20;
+	color: #fff;
+	background: #E81C69;
+	text-transform: uppercase;
+	font-size: 10px;
+	opacity: 1;
+}
+
+.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened {
+	width: 1015px !important; 
+	left: 13% !important;
+}
+
+.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened .fancybox-inner {
+	width: 1000px !important;
+}
+
+@media only screen and (min-width: 999px) and (max-width: 1001px) {
+	body {
+		background: #fff;
+		padding-top: 0px;
+		padding-left: 10px;
+	}
+	#center_column {
+		width: 100%;
+	}
+}
+
+#columns #aw_slider_container h3 {
+	color: #fff !important;
+	text-shadow: 1px 1px 6px #695F5F;
+	font-weight: 700;
+}
+
+#aw_slider_container li:first-child .aw_slide-text {
+	top: 105px;
+	left: 320px;
+}
+
+#aw_slider_container li:nth-child(2) .aw_slide-text {
+	top: 75px;
+	left: 560px;
+}
+
+#aw_slider_container li:nth-child(3) .aw_slide-text {
+	top: 145px;
+	left: 120px;
+}
+
+#aw_slider_container li:nth-child(4) .aw_slide-text {
+	top: 145px;
+	left: 590px;
+}
+
+#aw_slider_container li:nth-child(5) .aw_slide-text {
+	top: 15px;
+	left: 220px;
+}
+
+#aw_slider_container li:nth-child(6) .aw_slide-text {
+	top: 3px;
+	left: 50px;
+}
+
+#aw_slider_container li:nth-child(7) .aw_slide-text {
+	top: 145px;
+	left: 570px;
+}
+
+#productsCarousel div.price span, .aw_price {
+	color: #ff006c;
+}
+
+.showcase-plus-anchor {
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#newsletter_block_ext .col.promo img, .soc_img, .newsletter_img {
+	height: 292px;
+}
+
+form.newsletter_form {
+	border-radius: 0px;
+	width: 175px;
+}
+
+#newsletter_block_ext input.minibutton {
+	border-radius: 0px;
+	margin-left: 166px;
+	margin-top: -29px;
+	height: 34px;
+	background: #ff006c;
+}
+
+#newsletter_block_ext input.minibutton:hover {
+	background-image: none;
+	background: #ff006c;
+	-webkit-box-shadow: 1px 1px 10px #000000;
+	-moz-box-shadow: 1px 1px 10px #000000;
+	box-shadow: 1px 1px 10px #000000;
+}
+
+#manufacturersCarousel ul li a {
+	margin: 0px auto;
+}
+
+#pattern .flexmenuitem a span { background: url(http://charadaweb.com/themes/images/active_item.gif) no-repeat 500px 100%}
+@media (min-width: 729px) {#pattern .flexmenuitem:hover a span {background-position: 0 100%;}} /* Underline hover*/ 
+
+#shopping_cart:hover, #shopping_cart.hover {
+background: #e81C58;
+}
